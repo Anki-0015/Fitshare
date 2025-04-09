@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "FitShare",
+    "slug": "fitshare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=256&h=256&fit=crop",
+    "scheme": "fitshare",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=32&h=32&fit=crop"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
